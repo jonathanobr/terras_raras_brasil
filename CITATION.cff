@@ -1,7 +1,9 @@
 cff-version: 1.2.0
-title: "terras_raras_brasil — Geointeligência e Cadastro Minerário de Terras Raras no Brasil"
+title: "terras_raras_brasil: Mapas do Cadastro ANM e Comércio Exterior de Terras Raras no Brasil (excerto cartográfico — snapshot nov/2026)"
 message: "Se você utilizar o código ou as figuras deste repositório, cite utilizando os metadados abaixo."
 type: software
+version: "1.0.0"
+date-released: 2026-11-23
 authors:
   - family-names: "Ramos Oliveira"
     given-names: "Jonathan"
@@ -20,10 +22,11 @@ keywords:
   - ibge-albers
 preferred-citation:
   type: software
-  title: "terras_raras_brasil: Cadastro Minerário ANM, Coprodutos Associados e Balança Comercial de Terras Raras no Brasil"
+  title: "terras_raras_brasil: Mapas do Cadastro ANM e Comércio Exterior de Terras Raras no Brasil (excerto cartográfico — snapshot nov/2026)"
   authors:
     - family-names: "Ramos Oliveira"
       given-names: "Jonathan"
+  version: "1.0.0"
   year: 2026
   url: "https://github.com/jonathanobr/terras_raras_brasil"
-  notes: "Código-fonte sob licença MIT; mapas e gráficos prontos em output/figures/ sob licença CC BY 4.0."
+  notes: "Excerto cartográfico — snapshot nov/2026. Código-fonte sob licença MIT; mapas e gráficos em output/figures/ sob licença CC BY 4.0."

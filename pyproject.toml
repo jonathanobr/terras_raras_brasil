@@ -1,7 +1,7 @@
 [project]
 name = "terras-raras-brasil"
 version = "1.0.0"
-description = "Geointeligencia, cartografia (600 DPI) e analise cadastral/comercial de Terras Raras no Brasil a partir de dados publicos da ANM, IBGE e Comex Stat/MDIC."
+description = "Mapas do cadastro minerario ANM, coprodutos e balanca comercial de Terras Raras no Brasil (excerto cartografico — snapshot nov/2026)."
 readme = "README.md"
 license = { text = "MIT" }
 authors = [

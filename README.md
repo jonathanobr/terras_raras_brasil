@@ -6,10 +6,10 @@
 [![Código: MIT](https://img.shields.io/badge/C%C3%B3digo-MIT-green.svg)](LICENSE)
 [![Figuras: CC BY 4.0](https://img.shields.io/badge/Figuras-CC%20BY%204.0-lightgrey.svg)](output/LICENSE)
 
-Geointeligência, cartografia em projeção equivalente **IBGE Albers (`SIRGAS 2000` / `GRS80`)** e análise cadastral/comercial da cadeia de **Terras Raras no Brasil**, integrando o cadastro minerário oficial da **ANM/SIGMINE**, camada segregada de complexos de **coprodutos associados** (Al/Bauxita, Sn/Xenotima, Nb/Fosfato e Ti/Areias Pesadas), projetos âncora JORC/NI 43-101/SGB e séries de comércio exterior do **Comex Stat / MDIC** (`2015–2026*`).
+Mapas e séries comerciais sobre a cadeia de **Terras Raras no Brasil**, cruzando processos minerários ativos da ANM/SIGMINE, complexos de coprodutos associados (Al/Bauxita, Sn/Xenotima, Nb/Fosfato e Ti/Areias Pesadas), projetos âncora públicos e dados de comércio exterior do Comex Stat/MDIC (`2015–2026*`), em projeção equivalente Albers (SIRGAS 2000).
 
 > [!NOTE]
-> Este repositório disponibiliza o código-fonte reprodutível (`src/`, `tests/`), o catálogo curado de projetos âncora e ativo midstream ([`anchor_projects_and_midstream.json`](data/curated/anchor_projects_and_midstream.json)) e a seleção publicada das **4 figuras principais a 600 DPI** (`1a`, `1b`, `6b` e `12`). Dados brutos pesados não são versionados no Git e podem ser baixados diretamente das fontes oficiais via `src/fetch_online_sources.py`.
+> Este repositório reúne um **excerto cartográfico e gráfico (snapshot nov/2026)** com **4 figuras a 600 DPI** (`1a`, `1b`, `6b` e `12`), o catálogo curado de projetos âncora e ativo midstream ([`anchor_projects_and_midstream.json`](data/curated/anchor_projects_and_midstream.json)) e o código para baixar os dados oficiais via `src/fetch_online_sources.py` e reproduzir as pranchas. Dados brutos pesados não são versionados no Git.
 
 ---
 
@@ -111,10 +111,11 @@ pytest -v
 
 ```bibtex
 @software{RamosOliveira2026TerrasRarasBrasil,
-  author = {Ramos Oliveira, Jonathan},
-  title  = {terras\_raras\_brasil: Geointeligência, Cadastro Minerário ANM e Balança Comercial de Terras Raras no Brasil},
-  year   = {2026},
-  url    = {https://github.com/jonathanobr/terras_raras_brasil},
-  note   = {Código sob licença MIT; figuras em output/figures/ sob CC BY 4.0}
+  author  = {Ramos Oliveira, Jonathan},
+  title   = {terras\_raras\_brasil: Mapas do Cadastro ANM e Comércio Exterior de Terras Raras no Brasil (excerto cartográfico — snapshot nov/2026)},
+  version = {1.0.0},
+  year    = {2026},
+  url     = {https://github.com/jonathanobr/terras_raras_brasil},
+  note    = {Código sob licença MIT; figuras em output/figures/ sob CC BY 4.0}
 }
 ```
