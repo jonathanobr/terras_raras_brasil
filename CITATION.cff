@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: "terras_raras_brasil — Geointeligência e Cadastro Minerário de Terras Raras no Brasil"
+message: "Se você utilizar o código ou as figuras deste repositório, cite utilizando os metadados abaixo."
+type: software
+authors:
+  - family-names: "Ramos Oliveira"
+    given-names: "Jonathan"
+repository-code: "https://github.com/jonathanobr/terras_raras_brasil"
+url: "https://github.com/jonathanobr/terras_raras_brasil"
+license: "MIT"
+keywords:
+  - rare earth elements
+  - brazil
+  - anm
+  - sigmine
+  - comex-stat
+  - cartography
+  - geopandas
+  - sirgas2000
+  - ibge-albers
+preferred-citation:
+  type: software
+  title: "terras_raras_brasil: Cadastro Minerário ANM, Coprodutos Associados e Balança Comercial de Terras Raras no Brasil"
+  authors:
+    - family-names: "Ramos Oliveira"
+      given-names: "Jonathan"
+  year: 2026
+  url: "https://github.com/jonathanobr/terras_raras_brasil"
+  notes: "Código-fonte sob licença MIT; mapas e gráficos prontos em output/figures/ sob licença CC BY 4.0."

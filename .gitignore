@@ -1,0 +1,57 @@
+# Ambientes Python e caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Pastas de experimentação local e logs
+scratch/
+dev/
+*.log
+*.tmp
+
+# Dados brutos, documentos normativos (PDFs), CSVs e bases processadas pesadas
+data/raw/
+data/docs/
+data/processed/
+data/curated/coproduct_complexes.json
+data/curated/corporate_ownership_audit.json
+*.csv
+*.zip
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+
+# Saídas excluídas do repositório (SVGs, tabelas, relatórios e auditoria)
+output/figures/svg/
+output/relatorio/
+output/tables/
+output/quality_audit_report.json
+
+# Imagens PNG: publicar apenas as Figuras 1a, 1b, 6b e 12 (600 DPI)
+output/figures/png/*
+!output/figures/png/fig_01a_mapa_nacional_etr_estrito_600dpi.png
+!output/figures/png/fig_01b_mapa_nacional_etr_com_coprodutos_600dpi.png
+!output/figures/png/fig_06b_zoom_concessoes_lavra_serra_verde_minacu_600dpi.png
+!output/figures/png/fig_12_comercio_exterior_comex_stat_600dpi.png
+
+# Módulos locais de etapas excluídas (camadas socioambientais, tabelas, Data Paper e auditoria completa)
+src/build_curated_layers.py
+src/build_tables.py
+src/build_data_paper.py
+src/audit_pipeline.py
+tests/test_full_atlas_local.py
+
+# Temporários Office, IDE e SO
+~$*.docx
+~$*.xlsx
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
